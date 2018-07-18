@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="split_style.css">
+    <title>Split</title>
+</head>
+
+<body>
+    <div id="interface">
+        <header>
+            <h1>Split</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../Trim/trim.html">Trim</a></li>
+                <li><a href="../Downcase/downcase.html">Downcase</a></li>
+                <li><a href="split.html">Split</a></li>
+                <li><a href="../WordCount/wordcount.html">Word count</a></li>
+            </ul>
+        </nav>
+        <section>
+            <div id='form'>
+                <form>
+                    <fieldset>
+                        <legend>Entrada</legend>
+                        <label for="texto">Texto:&nbsp;&nbsp;&nbsp;</label>
+                        <input type="text" id="texto" placeholder="Digite seu texto aqui" autofocus><br>
+                        <label for="parametro">Parametro:</label>
+                        <input type="text" id="parametro" placeholder="Parametro">
+                        <button id="submit">Split</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <aside id="saida">
+            <!-- Saida do Split -->
+            <fieldset>
+                <legend>Saida</legend>
+                <ul>
+
+                </ul>
+            </fieldset>
+        </aside>
+        <footer>
+            <p>Criado por - Diego Costa</p>
+            <p>Exercicio 03</p>
+        </footer>
+    </div>
+    <script src="split_script.js"></script>
+</body>
+
+</html>

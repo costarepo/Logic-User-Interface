@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+div#form{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+div#form fieldset label{
+    font-size: 15pt;
+}
+
+
+div#form fieldset input{
+    padding:4px;
+    border-radius: 6px;
+}
+
+div#form fieldset input:hover{
+    border-color: #1E6B71;
+}
+
+div#form fieldset button{
+    margin-top: 10px;
+    padding:2px;
+    background-color: teal;
+    border-radius: 5px;
+    border-color: teal;
+    font-size: 10pt;
+    color: white;
+}
+
+
